@@ -1,0 +1,138 @@
+{
+  "checked_at": "2026-10-31T09:59:11.604452+00:00",
+  "training_complete_at": "2026-10-31T09:38:15.818979+00:00",
+  "completed_jobs": 9,
+  "epochs_per_job": 20,
+  "test_evaluated": false,
+  "summary": {
+    "clean": {
+      "n": 3,
+      "mean_best_validation_macro_f1": 0.6900432966678863,
+      "sample_std_best_validation_macro_f1": 0.0045915180998771545,
+      "mean_training_minutes": 55.683337893750924
+    },
+    "fgm": {
+      "n": 3,
+      "mean_best_validation_macro_f1": 0.7008403554142225,
+      "sample_std_best_validation_macro_f1": 0.005097063860471481,
+      "mean_training_minutes": 112.368801009655
+    },
+    "augmentation": {
+      "n": 3,
+      "mean_best_validation_macro_f1": 0.6866696156250488,
+      "sample_std_best_validation_macro_f1": 0.007847479317537579,
+      "mean_training_minutes": 69.26019331614175
+    }
+  },
+  "results": [
+    {
+      "job": "clean-s42",
+      "condition": "clean",
+      "seed": 42,
+      "epochs_completed": 20,
+      "best_epoch": 6,
+      "best_validation_macro_f1": 0.6952570546038123,
+      "final_validation_macro_f1": 0.6791238040583923,
+      "training_seconds": 3411.277635574341,
+      "verified": true,
+      "kernel": "danielngnkh/vihsd-full20-clean-s42"
+    },
+    {
+      "job": "fgm-s42",
+      "condition": "fgm",
+      "seed": 42,
+      "epochs_completed": 20,
+      "best_epoch": 4,
+      "best_validation_macro_f1": 0.6990814331594063,
+      "final_validation_macro_f1": 0.6747917778558987,
+      "training_seconds": 7000.524859189987,
+      "verified": true,
+      "kernel": "phnguyncng243/vihsd-full20-fgm-s42"
+    },
+    {
+      "job": "augmentation-s42",
+      "condition": "augmentation",
+      "seed": 42,
+      "epochs_completed": 20,
+      "best_epoch": 9,
+      "best_validation_macro_f1": 0.6949441938339707,
+      "final_validation_macro_f1": 0.67678216923608,
+      "training_seconds": 4098.643922328949,
+      "verified": true,
+      "kernel": "linh2709/vihsd-full20-augmentation-s42"
+    },
+    {
+      "job": "clean-s123",
+      "condition": "clean",
+      "seed": 123,
+      "epochs_completed": 20,
+      "best_epoch": 7,
+      "best_validation_macro_f1": 0.6882698351227529,
+      "final_validation_macro_f1": 0.6719527206731307,
+      "training_seconds": 3307.47655582428,
+      "verified": true,
+      "kernel": "ndhoangg/vihsd-full20-clean-s123"
+    },
+    {
+      "job": "fgm-s123",
+      "condition": "fgm",
+      "seed": 123,
+      "epochs_completed": 20,
+      "best_epoch": 15,
+      "best_validation_macro_f1": 0.7065839407561074,
+      "final_validation_macro_f1": 0.6918575838975493,
+      "training_seconds": 6460.738799571991,
+      "verified": true,
+      "kernel": "ndhoang2310/vihsd-full20-fgm-s123"
+    },
+    {
+      "job": "augmentation-s123",
+      "condition": "augmentation",
+      "seed": 123,
+      "epochs_completed": 20,
+      "best_epoch": 4,
+      "best_validation_macro_f1": 0.6793336630125729,
+      "final_validation_macro_f1": 0.6735132830532645,
+      "training_seconds": 4125.786862611771,
+      "verified": true,
+      "kernel": "ndhoang2310/vihsd-full20-augmentation-s123"
+    },
+    {
+      "job": "clean-s2026",
+      "condition": "clean",
+      "seed": 2026,
+      "epochs_completed": 20,
+      "best_epoch": 4,
+      "best_validation_macro_f1": 0.6866030002770936,
+      "final_validation_macro_f1": 0.6697037831464338,
+      "training_seconds": 3304.2466294765472,
+      "verified": true,
+      "kernel": "ndhoangg/vihsd-full20-clean-s2026"
+    },
+    {
+      "job": "fgm-s2026",
+      "condition": "fgm",
+      "seed": 2026,
+      "epochs_completed": 20,
+      "best_epoch": 4,
+      "best_validation_macro_f1": 0.696855692327154,
+      "final_validation_macro_f1": 0.6803772948723443,
+      "training_seconds": 6765.120522975922,
+      "verified": true,
+      "kernel": "linh2709/vihsd-full20-fgm-s2026"
+    },
+    {
+      "job": "augmentation-s2026",
+      "condition": "augmentation",
+      "seed": 2026,
+      "epochs_completed": 20,
+      "best_epoch": 4,
+      "best_validation_macro_f1": 0.6857309900286026,
+      "final_validation_macro_f1": 0.6707948368034531,
+      "training_seconds": 4242.404011964798,
+      "verified": true,
+      "kernel": "danielngnkh/vihsd-full20-augmentation-s2026"
+    }
+  ],
+  "total_training_hours": 11.865616610977385
+}

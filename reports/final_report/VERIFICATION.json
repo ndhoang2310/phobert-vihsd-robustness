@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "models": 9,
+  "profiles": 99,
+  "test_examples_per_profile": 6680,
+  "training_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "common_eligible_ids": 4069,
+  "groups": [
+    {
+      "group": "nkhung",
+      "verification": {
+        "passed": true,
+        "models": 2,
+        "profiles_verified": 22,
+        "replayed_events": 87569
+      }
+    },
+    {
+      "group": "phu",
+      "verification": {
+        "passed": true,
+        "models": 1,
+        "profiles_verified": 11,
+        "replayed_events": 87569
+      }
+    },
+    {
+      "group": "linh",
+      "verification": {
+        "passed": true,
+        "models": 2,
+        "profiles_verified": 22,
+        "replayed_events": 87569
+      }
+    },
+    {
+      "group": "hoang2",
+      "verification": {
+        "passed": true,
+        "models": 2,
+        "profiles_verified": 22,
+        "replayed_events": 87569
+      }
+    },
+    {
+      "group": "hoang1",
+      "verification": {
+        "passed": true,
+        "models": 2,
+        "profiles_verified": 22,
+        "replayed_events": 87569
+      }
+    }
+  ]
+}

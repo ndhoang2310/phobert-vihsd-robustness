@@ -1,0 +1,35 @@
+{
+  "train": {
+    "p50": 11.0,
+    "p95": 37.0,
+    "p99": 64.0,
+    "max": 9853,
+    "mean_bpe_per_segmented_unit": 1.2725467593951776,
+    "unk_token_rate": 0.020900036661371135,
+    "truncated_at_100_rate": 0.0014139565832155035,
+    "truncated_at_128_rate": 0.0007069782916077518,
+    "truncated_at_256_rate": 0.00037428262496880976
+  },
+  "validation": {
+    "p50": 11.0,
+    "p95": 38.0,
+    "p99": 64.28999999999996,
+    "max": 152,
+    "mean_bpe_per_segmented_unit": 1.2556498353455436,
+    "unk_token_rate": 0.02171354595739673,
+    "truncated_at_100_rate": 0.001122754491017964,
+    "truncated_at_128_rate": 0.00037425149700598805,
+    "truncated_at_256_rate": 0.0
+  },
+  "test": {
+    "p50": 11.0,
+    "p95": 38.0,
+    "p99": 67.0,
+    "max": 419,
+    "mean_bpe_per_segmented_unit": 1.3050962248173845,
+    "unk_token_rate": 0.021141403463937645,
+    "truncated_at_100_rate": 0.0017964071856287425,
+    "truncated_at_128_rate": 0.0004491017964071856,
+    "truncated_at_256_rate": 0.0001497005988023952
+  }
+}

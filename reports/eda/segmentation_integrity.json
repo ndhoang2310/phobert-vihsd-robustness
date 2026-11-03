@@ -1,0 +1,14 @@
+{
+  "train": {
+    "rows": 24046,
+    "non_bmp_sequence_changed_rows": 0
+  },
+  "validation": {
+    "rows": 2672,
+    "non_bmp_sequence_changed_rows": 0
+  },
+  "test": {
+    "rows": 6680,
+    "non_bmp_sequence_changed_rows": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "train_mappings": 541,
+  "unseen_mappings": 422,
+  "train_mapping_min_source_ids": 2,
+  "train_mapping_min_observed_purity": 0.95,
+  "train_mappings_with_both_source_datasets": 116,
+  "rejection_reasons": {
+    "insufficient_distinct_train_evidence": 2333,
+    "protected_or_context_ambiguous_including_unchanged_uses": 1181
+  },
+  "interpretation": "Observed lexical support and target consistency are curation evidence, not proof of toxic label preservation or independent annotation counts."
+}

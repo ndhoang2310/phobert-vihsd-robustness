@@ -1,0 +1,16 @@
+{
+  "pilot_v1": {
+    "train_mappings": 493,
+    "unseen_mappings": 430,
+    "in_domain_heldout_event_coverage": 0.22764227642276422,
+    "validation_changed_rate": 0.7780688622754491,
+    "event_type_js_bits_vs_in_domain_heldout": 0.0793696284124614
+  },
+  "dual_source_v2": {
+    "train_mappings": 541,
+    "unseen_mappings": 422,
+    "in_domain_heldout_event_coverage": 0.32791327913279134,
+    "validation_changed_rate": 0.780314371257485,
+    "event_type_js_bits_vs_in_domain_heldout": 0.007803064779067991
+  }
+}

@@ -1,0 +1,4 @@
+split,CLEAN,OFFENSIVE,HATE
+train,19886,1606,2556
+validation,2190,212,270
+test,5548,444,688

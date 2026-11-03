@@ -1,0 +1,14 @@
+{
+  "cross_source_train_original_exact_overlap": 0,
+  "train_mapping_evidence_only_one_unique_text_pair": 2,
+  "mapping_ids": [
+    "3b59fd7314457224",
+    "b4209173ac50185a"
+  ],
+  "note": "Distinct source IDs are the current minimum-evidence rule; unique text-context count can be smaller because natural duplicate comments exist. Do not call source IDs independent annotators or independent contexts.",
+  "excluded_source_ids_by_dataset": {
+    "smalllex:": 71,
+    "vilexnorm:": 0
+  },
+  "type_prior_note": "Family proportions fit the entire released SmallLex TRAIN, including original-training comments duplicated in evaluation; exclusion applies to mapping evidence, not this 4-family prior. No evaluation labels/predictions are used. Official ViHSD cross-split duplicates remain an evaluation limitation."
+}

@@ -1,0 +1,17 @@
+{
+  "train": {
+    "majority_label": 0,
+    "accuracy": 0.8269294743845642,
+    "macro_f1": 0.30175566379872837
+  },
+  "validation": {
+    "majority_label": 0,
+    "accuracy": 0.8196107784431138,
+    "macro_f1": 0.3002879473467709
+  },
+  "test": {
+    "majority_label": 0,
+    "accuracy": 0.8305389221556886,
+    "macro_f1": 0.3024751935448697
+  }
+}

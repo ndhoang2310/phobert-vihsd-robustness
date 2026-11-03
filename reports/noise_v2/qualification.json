@@ -1,0 +1,128 @@
+{
+  "bank_counts": {
+    "unseen": 422,
+    "train": 541
+  },
+  "bank_kinds": {
+    "elongation": 40,
+    "abbreviation": 519,
+    "spelling_variant": 333,
+    "diacritics": 71
+  },
+  "excluded_evaluation_overlap_sources": 71,
+  "external_rows": {
+    "train": 8372,
+    "validation": 1050,
+    "test": 1045
+  },
+  "cohorts": {
+    "train": {
+      "n": 24048,
+      "nsw_marker_rows": 5431,
+      "nsw_marker_rate": 0.22583998669328012,
+      "definition": "Heuristic frozen train-bank exact surface match; not gold noise density"
+    },
+    "validation": {
+      "n": 2672,
+      "nsw_marker_rows": 560,
+      "nsw_marker_rate": 0.20958083832335328,
+      "definition": "Heuristic frozen train-bank exact surface match; not gold noise density"
+    },
+    "test": {
+      "n": 6680,
+      "nsw_marker_rows": 1516,
+      "nsw_marker_rate": 0.22694610778443114,
+      "definition": "Heuristic frozen train-bank exact surface match; not gold noise density"
+    }
+  },
+  "validation_views": {
+    "train": {
+      "n": 2672,
+      "changed": 2085,
+      "coverage": 0.780314371257485,
+      "actual_rate_mean": 0.10668485363386107
+    },
+    "unseen": {
+      "n": 2672,
+      "changed": 1679,
+      "coverage": 0.6283682634730539,
+      "actual_rate_mean": 0.07646674992885862
+    }
+  },
+  "external_heldout_diagnostics": {
+    "validation": {
+      "aligned_events": 1343,
+      "exact_pair_coverage": 0.5003723008190618,
+      "observed_kinds": {
+        "abbreviation": 1000,
+        "spelling_variant": 259,
+        "diacritics": 69,
+        "elongation": 15
+      }
+    },
+    "test": {
+      "aligned_events": 1334,
+      "exact_pair_coverage": 0.507496251874063,
+      "observed_kinds": {
+        "abbreviation": 950,
+        "spelling_variant": 312,
+        "diacritics": 60,
+        "elongation": 12
+      }
+    }
+  },
+  "in_domain_train_coverage": {
+    "events": 2940,
+    "covered": 952,
+    "coverage": 0.3238095238095238
+  },
+  "in_domain_test_coverage": {
+    "events": 369,
+    "covered": 121,
+    "coverage": 0.32791327913279134
+  },
+  "type_calibration": {
+    "reference": "Small-LexNormViHSD released train only",
+    "target_domain_sample": "2000 hash-selected ViHSD train comments; no labels used",
+    "eligible_comments": 1575,
+    "kind_order": [
+      "abbreviation",
+      "diacritics",
+      "elongation",
+      "spelling_variant"
+    ],
+    "human_train_prior": [
+      0.64795918,
+      0.17857143,
+      0.01428571,
+      0.15918367
+    ],
+    "before_expected_mix": [
+      0.41241011,
+      0.0795603,
+      0.06750788,
+      0.44052171
+    ],
+    "after_expected_mix": [
+      0.58766651,
+      0.16319382,
+      0.02477473,
+      0.22436494
+    ],
+    "multipliers": [
+      16.40386,
+      12.19409,
+      0.050918,
+      0.09818
+    ],
+    "iterations": 12,
+    "optimizer_converged": true,
+    "objective": "JSD to human TRAIN event-type prior + 0.0005 mean squared log multipliers",
+    "log_multiplier_bounds": [
+      -3,
+      3
+    ],
+    "heldout_data_used": false,
+    "limitations": "Conditional on eligible mapping spans, source corpus is NSW-selected; not a universal UGC error process"
+  }
+}
